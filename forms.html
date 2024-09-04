@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+</head>
+<body>
+    <form>
+        <h1>Student Details form </h1>
+        <label>Name:</label>
+        <input type="texts" 
+        placeholder="Enter your name"><br>
+        <br>
+        <label>Date of birth</label>
+        <input type="date"><br><br>
+        <label>Age</label>
+        <input type="number"
+        placeholder="Enter your age"><br><br>
+        <label>College name</label>
+        <input type="text"
+        placeholder="Enter your college name"><br><br>
+        <label>Phone Number</label>
+        <input type="number"
+        placeholder="Enter your phone number"><br><br>
+        <fieldset style="width:20%;">
+            <legend>Gender:</legend>
+            <input type="radio" name="gender" id="male" value="male">
+            <label>Male</label><br>
+            <input type="radio"name="gender" id="female" value="female">
+            <label>Female</label>
+            
+        </fieldset><br><br>
+        <fieldset width="20%">
+            <legend>Skills:</legend>
+            <input type="checkbox" name="skills" id="html" value="html">
+            <label>Html</label><br>
+            <input type="checkbox" name="skills" id="CSS" value="CSS">
+            <label>CSSl</label><br>
+            <input type="checkbox" name="skills" id="java" value="java">
+            <label>java</label><br>
+            <input type="checkbox" name="skills" id="Javascript" value="Javascript">
+            <label>Javascript</label>
+            
+        </fieldset><br><br>
+        <label>Select role:</label>
+        <select id="role" name="role" required>
+            <option value="student">Student</option>
+            <option value="Employee">Employee</option>
+        </select>
+        <br><br>
+        <label>gmail</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label>password</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <label>Resume:</label>
+        <input type="file"
+        id="file"
+        name="file"><br><br>
+        <button>submit</button>
+
+
+    </form>
+</body>
+
+</html>
